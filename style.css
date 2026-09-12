@@ -1,0 +1,259 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #faf9ff;
+    color: #333;
+}
+
+
+/* Header */
+
+header {
+    background-color: white;
+
+    padding: 20px 50px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    border-bottom: 1px solid #ddd;
+}
+
+
+/* Name */
+
+header h2 {
+    color: #303070;
+}
+
+
+/* Menu */
+
+nav a {
+    text-decoration: none;
+
+    color: #333;
+
+    margin-left: 25px;
+}
+
+
+/* Home */
+
+#home {
+    min-height: 500px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 50px;
+}
+
+
+/* Home heading */
+
+#home h1 {
+    font-size: 45px;
+
+    color: #303070;
+}
+
+
+/* Home paragraph */
+
+#home p {
+    width: 500px;
+
+    color: #555;
+}
+
+
+/* Computer */
+
+.computer {
+    width: 250px;
+
+    height: 170px;
+
+    border: 5px solid #303070;
+
+    border-radius: 10px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    font-size: 40px;
+
+    color: #6964b5;
+}
+
+
+/* Sections */
+
+section {
+    padding: 70px 50px;
+
+    text-align: center;
+}
+
+
+/* Section headings */
+
+section > h2 {
+    color: #303070;
+
+    font-size: 32px;
+
+    margin-bottom: 35px;
+}
+
+
+/* Common box */
+
+.box {
+    background-color: white;
+
+    border: 1px solid #ddd9ef;
+
+    border-radius: 10px;
+
+    padding: 25px;
+
+    max-width: 700px;
+
+    margin: 20px auto;
+
+    text-align: left;
+}
+
+
+/* Skills */
+
+.skills {
+    display: flex;
+
+    justify-content: center;
+
+    gap: 25px;
+}
+
+
+/* Skill boxes */
+
+.skill-box {
+    background-color: #eeeaff;
+
+    border: 1px solid #d8d2f0;
+
+    border-radius: 10px;
+
+    width: 220px;
+
+    padding: 25px;
+
+    text-align: left;
+}
+
+
+/* Skill heading */
+
+.skill-box h3 {
+    color: #303070;
+}
+
+
+/* Projects */
+
+.projects {
+    display: flex;
+
+    justify-content: center;
+
+    gap: 25px;
+}
+
+
+/* Project boxes */
+
+.project-box {
+    background-color: white;
+
+    border: 1px solid #ddd9ef;
+
+    border-radius: 10px;
+
+    width: 300px;
+
+    padding: 25px;
+
+    text-align: left;
+}
+
+
+/* Project heading */
+
+.project-box h3 {
+    color: #303070;
+}
+
+
+/* Button */
+
+button {
+    background-color: #6964b5;
+
+    color: white;
+
+    border: none;
+
+    padding: 12px 25px;
+
+    border-radius: 20px;
+
+    cursor: pointer;
+}
+
+
+/* Mobile */
+
+@media (max-width: 700px) {
+
+    header {
+        padding: 20px;
+    }
+
+    nav a {
+        margin-left: 10px;
+    }
+
+    #home {
+        flex-direction: column;
+
+        text-align: center;
+    }
+
+    #home p {
+        width: auto;
+    }
+
+    .skills {
+        flex-direction: column;
+
+        align-items: center;
+    }
+
+    .projects {
+        flex-direction: column;
+
+        align-items: center;
+    }
+}
